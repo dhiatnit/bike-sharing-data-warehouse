@@ -1,1 +1,22 @@
-.idea
+# IDE
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Django
+*.sqlite3
+db.sqlite3
+local_settings.py
+media/
+staticfiles/
+
+# Environment / secrets
+.env
+*.env
